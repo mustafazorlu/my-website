@@ -7,6 +7,10 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 $fade_white:#cecece;
 $fade_black:#313134;
 $dark_gray:#252529;
@@ -72,6 +76,15 @@ body{
 
 //content
 .content{
+    @media screen and (max-width:920px) {
+        flex-direction: column;
+        .about_me{
+            order:2 !important;
+        }
+        .photo_social{
+            order:1;
+        }
+    }
     padding-top:3rem;
     margin-top:4rem;
     display: flex;
