@@ -41,7 +41,7 @@ localhost:3000/route-1/route-2/route-3
 
 Yine bunları params ile alabilirsin.
 
->params dizi şeklinde döner.
+> params dizi şeklinde döner.
 
 `Optional Catch All Routes`
 
@@ -60,16 +60,6 @@ App klasörü bi zaman sonra çok karmaşıklaşmasın diye klasörleri organize
 
 import Link from 'next/link'; yazdıktan sonra kullanabilirsiniz.
 
-``<Link href="/docs/post">Post</Link>``
-
-Link etiketinin farklı bir kullanımı da href içerisinde obje gönderebilirsiniz örnek olarak :
-
-``<Link href={{
-    pathname:"/hakkimizda",
-    query:{
-        name:"mustafa",
-        surname:'zorlu'
-    }
-}}>Post</Link>``
+`<Link href="/docs/post">Post</Link>`
 
 Optimizasyon işlemleri için kullanabileceğin prefetch adında bir parametre mevcut.Detaylı bilgisine next.js dökümantasyonundan bakabilirsin.
