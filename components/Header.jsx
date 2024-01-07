@@ -8,14 +8,14 @@ const Header = () => {
         <header className="header">
             <div className="logo">mz</div>
             <nav className="header_navigation">
-                <Link className="link" href="/aboutme">
+                <Link className="link" href="#content">
                     Hakkımda
                 </Link>
-                <Link className="link" href="/portfolio">
-                    Portolio
+                <Link className="link" href="#portfolio">
+                    Portolyo
                 </Link>
-                <Link className="link" href="/blog">
-                    Blog
+                <Link className="link" href="#hobbies">
+                    Hobilerim
                 </Link>
             </nav>
             <div className="theme_button">

@@ -10,6 +10,7 @@
 $fade_white:#cecece;
 $fade_black:#313134;
 $dark_gray:#252529;
+$article:#97979f;
 
 body{
     background-color: black;
@@ -25,6 +26,7 @@ body{
     background-color: #18181b;
     margin:0 auto;
     padding:4rem;
+    padding-top:2rem;
 }
 //header
 .header{
@@ -70,13 +72,214 @@ body{
 
 //content
 .content{
+    padding-top:3rem;
+    margin-top:4rem;
     display: flex;
+    gap: 4rem;
     .about_me{
-        flex:1;
+        flex:1.2;
+        color: #fff;
+        .about_me_title{
+            font-size: 2.5rem;
+            line-height: 3.4rem;
+            margin-bottom:2rem;
+            .name{
+                background-color: #fde047;
+                padding: 0.5rem;
+                color:$dark_gray;
+            }
+        }
         
+
+        .about_me_articles{
+            .article{
+                margin-bottom:2rem;
+                color:$article;
+                line-height: 1.5rem;
+            }
+        }
     }
 
     .photo_social{
         flex:1;
+        .social{
+            
+            .social_media_links{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                gap:1rem;
+                
+                .link{
+                    display: flex;
+                    gap:1rem;
+                    align-items: center;
+                    font-weight: 600;
+                    color:$article;
+                    padding: 0.8rem 1rem;
+                    background-color: $dark_gray;
+                    border-radius: 100px;
+                    border:1px solid $fade_black;
+                    width: max-content;
+                    transition: 0.15s;
+                    &:hover{
+                        color: #cecece;
+                        border-color: lighten($fade_black, 10%);
+                    }
+                    .icon{
+                        font-size:18px;
+                    }
+                    span{
+                        font-size:14px;
+                    }
+                }
+            }
+        }
+        
+        
+        .photo{
+            margin-bottom: 2rem;
+            img{
+                width: 100%;
+
+            }
+        }
     }
 }
+
+.technologies{
+    .technologies_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        
+        .technologies_row{
+            display: flex;
+            justify-content: center;
+            gap:1rem;
+            flex-wrap:wrap;
+            
+            
+            .technology_item{
+                width: max-content;
+                padding:0.9rem 2.4rem;
+                border-radius: 5px;
+                background-color: $dark_gray;
+                border:1px solid $fade_black;
+                color:$article;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap:0.5rem;
+                
+                
+            }
+        }
+    }
+}
+
+//portfolio
+.portfolio{
+    padding-top:2rem;
+
+    .portfolio_cards{
+        
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: masonry;
+        .card{
+            border-radius: 5px;
+            border:1px solid $fade_black;
+            background-color: $dark_gray;
+            overflow: hidden;
+            transition:0.15s;
+            &:hover{
+                transform: scale(1.02);
+                border-color: lighten($fade_black, 10%);
+                
+                
+            }
+           .card_image{
+                height: 160px;
+                img{
+                    width: 100%;
+                    // border-radius: 5px 5px 0 0;
+                    height: 100%;
+                    object-fit: cover;
+                }
+           }
+
+           .card_information{
+                padding:1rem;
+                .title{
+                    color:#fff;
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-bottom:1rem;
+                   
+                }
+
+                .card_desc{
+                    font-size:14px;
+                    color:$article ;
+                }
+           }
+        }
+    }
+}
+
+.line{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: $fade_black;
+    height: 1px;
+    border:0;
+    
+}
+
+//hobies
+.hobbies{
+    padding-top:2rem;
+    .masonry {
+        columns: 3;
+        column-gap: 16px;
+
+        @media (max-width: 1200px) {
+          columns: 3;
+        }
+        @media (max-width: 992px) {
+          columns: 2;
+        }
+        @media (max-width: 692px) {
+            columns: 1;
+          }
+        //@media (max-width: 768px) {columns: 1;}
+        .grid {
+          display: inline-block;
+          margin-bottom: 16px;
+          position: relative;
+          
+          img {
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+    
+}
+
+
+.section_title{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    
+}
+
+.section{
+    margin-top:6rem;
+    
+}
+
