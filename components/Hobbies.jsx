@@ -28,34 +28,17 @@ const Hobbies = () => {
                     <div className="grid">
                         <img src="/kaktus.jpg" alt="" />
                     </div>
-
-                    <div className="grid">
-                        <img src="kugu.jpg" alt="" />
-                    </div>
                     <div className="grid">
                         <img src="cocuk.jpg" alt="" />
                     </div>
                     <div className="grid">
                         <img src="miku.jpg" alt="" />
                     </div>
-                    <div className="grid">
-                        <img src="hisoka.jpg" alt="" />
-                    </div>
-                    <div className="grid">
-                        <img src="kalp.jpg" alt="" />
-                    </div>
-                    <div className="grid">
-                        <img src="motor.jpg" alt="" />
-                    </div>
-                    <div className="grid">
-                        <img src="papatya.jpg" alt="" />
-                    </div>
+
                     <div className="grid">
                         <img src="pika.jpg" alt="" />
                     </div>
-                    <div className="grid">
-                        <img src="pokemon.jpg" alt="" />
-                    </div>
+
                     <div className="grid">
                         <img src="tavsan.jpg" alt="" />
                     </div>

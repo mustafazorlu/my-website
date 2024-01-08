@@ -14,30 +14,31 @@ const Content = () => {
         <section className="content" id="content">
             <div className={`about_me ${theme}`}>
                 <h1 className="about_me_title">
-                    Selam ben <span className="name">Mustafa Zorlu.</span>
-                    <br></br>
-                    Full-stack yazılımcı olmaya çalışıyorum. Herkese bol şans 😁
+                    Selamlar! Ben <br />{" "}
+                    <span className="name">Mustafa Zorlu.</span>
+                    <br />
+                    Full-stack yazılımcı olma hayalimde adım adım ilerliyorum.
                 </h1>
                 <div className={`about_me_articles ${theme}`}>
                     <p className="article">
-                        Portfolio sayfama hoşgeldin seni burada görmek beni çok
-                        mutlu etti 🥰
+                        Portfolyo sayfama hoşgeldin seni burada görmek beni çok
+                        mutlu etti.
                     </p>
                     <p className="article">
                         <b>
                             Tokat Gaziosmanpaşa Üniversitesi Bilgisayar
                             Mühendisliği
                         </b>{" "}
-                        bölümünde son sınıf öğrencisiyim. Okulumun - herhangi
-                        bir okul için de geçerli - bana diploma denilen kağıttan
-                        başka bir şey veremediğini farkettiğim anda internetteki
-                        eğitimleri izleyerek <u>yazılımın</u> üstüne düşmeye
-                        başladım.Hala da internetteki eğitimlerle kendimi
-                        geliştiriyorum.Şuan da Junior seviyesindeyim herhalde 😀
+                        bölümünde son sınıf öğrencisiyim. 4 yıldır web
+                        teknolojileri alanında kendimi internet üzerindeki
+                        eğitimlerden geliştirmeye çalışıyorum. Aynı zamanda UI
+                        ve UX tasarımlarıyla da ilgileniyorum. Şuan da Jr.
+                        Front-End geliştirici olarak çalışmalarımı
+                        sürdürmekteyim.
                     </p>
                     <p className="article">
                         Bi süredir Freelance sektöründe işler alarak kendimi
-                        daha da geliştirmeye çalışıyorum ve yeni tecrübeler
+                        daha da geliştirip ve yeni tecrübeler
                         ediniyorum.
                     </p>
                     <p className="article">
@@ -45,13 +46,13 @@ const Content = () => {
                         <b>TEKNOFEST</b>'de <b>HUMA</b> takımında{" "}
                         <b>Sürü İHA</b> kategorisinde çalışmalar
                         yürüttüm.Yarışmayı 6. bitirerek, aynı zamanda{" "}
-                        <b>En İyi Takım Ruhu</b> ödülüne layık görüldük 🤗
-                        Burdan gelişimimde bana yardımcı olan takım
-                        arkadaşlarıma teşekkür ediyorum.
+                        <b>En İyi Takım Ruhu</b> ödülüne layık görüldük. Burdan
+                        gelişimimde bana yardımcı olan takım arkadaşlarıma
+                        teşekkür ediyorum.
                     </p>
                     <p className="article">
                         Eğer sen de hayallerini gerçekleştirmeye çalışan
-                        biriysen, ya da bir takım arkadaşına ihtiyacın varsa
+                        biriysen ya da bir takım arkadaşına ihtiyacın varsa
                         benimle iletişime geçebilirsin.
                     </p>
                     <p>

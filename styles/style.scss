@@ -386,9 +386,9 @@ body{
             transition:0.15s;
             &.light{
                 background-color: $light_background;
-                border:1px solid $light_border !important;
+                border:1px solid #ddd !important;
                 &:hover{
-                    border:1px solid #333 !important;
+                    border-color: #aaa !important;
                 }
             }
             &:hover{
