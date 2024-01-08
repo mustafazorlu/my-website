@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Yatra+One&display=swap');
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -11,17 +13,30 @@ html{
     scroll-behavior: smooth;
 }
 
+//dark
 $fade_white:#cecece;
 $fade_black:#313134;
 $dark_gray:#252529;
 $article:#97979f;
+$white:#fff;
+
+//light
+$light_main:#fafafa;
+$light_text:#333;
+$light_background:#f5f5f5;
+$light_black:#000;
+$light_border:#aaa;
 
 body{
     background-color: black;
+    
 }
 
 .main{
-    
+    transition: 0.15s;
+    &.light{
+        background-color: $light_main;
+    }
 }
 
 .container{
@@ -31,16 +46,66 @@ body{
     margin:0 auto;
     padding:4rem;
     padding-top:2rem;
+    transition: 0.15s;
+    @media screen and (max-width:920px) {
+        padding:2rem;
+        padding-top:2rem;
+    }
+    &.light{
+        background-color: $white;
+    }
+    
 }
 //header
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     .logo{
         color:$fade_white;
         font-weight: 400;
-        font-size:1.5rem;
+        transition: 0.15s;
+        font-family: 'Sacramento', cursive;
+        font-size:4rem;
+        &.light{
+            color:$light_black;
+        }
+    }
+
+    .hamburger{
+        padding:0.8rem 1rem;
+        border-radius: 100px;
+        border:1px solid $fade_black;
+        display: none;
+        gap:0.2rem;
+        justify-self: center;
+        background-color: $fade_black;
+        cursor: pointer;
+        color:$fade_white;
+        transition: 0.15s;
+        font-size:14px;
+        @media screen and (max-width:700px) {
+            display: flex;
+        }
+        &:hover{
+            color: $white;
+            border-color: lighten($fade_black, 10%);
+        }
+        &.light{
+            background-color: $light_background;
+            color:#444;
+            border:1px solid #aaa;
+            &:hover{
+                color: $light_black;
+            border-color: $light_black;
+            }
+        }
+
+        .theme_icon{
+            color:inherit;
+            font-size:18px;
+        }
     }
     .header_navigation{
         border:1px solid $fade_black;
@@ -48,14 +113,46 @@ body{
         font-size: 14px;
         display: flex;
         padding:0.9rem 2rem;
-        background-color: #252529;
+        background-color: $dark_gray;
+        color:$fade_white;
+        @media screen and (max-width:700px){
+            position: absolute;
+            border-radius: 5px;
+            display: none;
+            text-align: center;
+            width: 100%;
+            margin:0 auto;
+            left:50%;
+            transform:translateX(-50%);
+            top:140px;
+            max-width: 80%;
+            flex-direction: column;
+            padding:1.5rem 0;
+            box-shadow: 0 0 10px 2px rgba(0,0,0,0.05);
+            .hamburger{
+                display: flex;
+            }
+
+            
+
+        }
+        &.show{
+            display: flex;
+        }
+        &.light{
+            background-color: $light_background;
+            color:#444;
+            border:1px solid #aaa;
+        }
         
         gap:1.5rem;
         .link{
             font-weight: 500;
-            color:$fade_white !important;
+            color:inherit !important;
         }
     }
+
+    
 
     .theme_button{
         padding:0.8rem 1rem;
@@ -66,9 +163,24 @@ body{
         justify-self: center;
         background-color: $dark_gray;
         cursor: pointer;
+        color:$fade_white;
+        transition: 0.15s;
+        &:hover{
+            color: $white;
+            border-color: lighten($fade_black, 10%);
+        }
+        &.light{
+            background-color: $light_background;
+            color:#444;
+            border:1px solid #aaa;
+            &:hover{
+                color: $light_black;
+            border-color: $light_black;
+            }
+        }
 
-        .moon_icon{
-            color:$fade_white;
+        .theme_icon{
+            color:inherit;
             font-size:18px;
         }
     }
@@ -89,13 +201,24 @@ body{
     margin-top:4rem;
     display: flex;
     gap: 4rem;
+    @media screen and (max-width:700px) {
+        padding-top:0rem !important;
+    }
     .about_me{
         flex:1.2;
-        color: #fff;
+        color: $white;
+        transition: 0.15s;
+        &.light{
+            color:$light_text !important;
+        }
         .about_me_title{
             font-size: 2.5rem;
             line-height: 3.4rem;
             margin-bottom:2rem;
+            @media screen and (max-width:920px) {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
             .name{
                 background-color: #fde047;
                 padding: 0.5rem;
@@ -105,10 +228,16 @@ body{
         
 
         .about_me_articles{
+            color:$article;
+            transition: 0.15s;
+            &.light{
+                color:$light_text !important;
+            }
             .article{
                 margin-bottom:2rem;
-                color:$article;
+                color:inherit;
                 line-height: 1.5rem;
+                
             }
         }
     }
@@ -122,6 +251,11 @@ body{
                 flex-wrap: wrap;
                 flex-direction: row;
                 gap:1rem;
+                @media screen and (max-width:500px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
                 
                 .link{
                     display: flex;
@@ -135,6 +269,15 @@ body{
                     border:1px solid $fade_black;
                     width: max-content;
                     transition: 0.15s;
+                    &.light{
+                        background-color: $light_background;
+                        color:#444;
+                        border:1px solid #aaa;
+                        &:hover{
+                            color: $light_black;
+                        border-color: $light_black;
+                        }
+                    }
                     &:hover{
                         color: #cecece;
                         border-color: lighten($fade_black, 10%);
@@ -167,14 +310,21 @@ body{
         gap:1rem;
         
         .technologies_row{
-            display: flex;
-            justify-content: center;
-            gap:1rem;
-            flex-wrap:wrap;
-            
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-gap:1rem;
+            @media screen and (max-width:1240px){
+                grid-template-columns:1fr 1fr 1fr;
+            }
+            @media screen and (max-width:740px){
+                grid-template-columns:1fr 1fr;
+            }
+            @media screen and (max-width:740px){
+                grid-template-columns:1fr;
+            }
             
             .technology_item{
-                width: max-content;
+                width:100%;
                 padding:0.9rem 2.4rem;
                 border-radius: 5px;
                 background-color: $dark_gray;
@@ -184,6 +334,11 @@ body{
                 align-items: center;
                 justify-content: center;
                 gap:0.5rem;
+                &.light{
+                    background-color: $light_background;
+                    color:#444;
+                    border:1px solid #aaa;
+                }
                 
                 
             }
@@ -194,6 +349,22 @@ body{
 //portfolio
 .portfolio{
     padding-top:2rem;
+
+    .portfolio_title_wrapper{
+        display: flex;
+        justify-content: space-between;
+        .seeAll{
+            font-size: 14px;
+            color:#fff;
+            margin-top:5px;
+            &:hover{
+                text-decoration: underline;
+            }
+            &.light{
+                color:$fade_black;
+            }
+        }
+    }
 
     .portfolio_cards{
         
@@ -207,6 +378,13 @@ body{
             background-color: $dark_gray;
             overflow: hidden;
             transition:0.15s;
+            &.light{
+                background-color: $light_background;
+                border:1px solid $light_border !important;
+                &:hover{
+                    border:1px solid #333 !important;
+                }
+            }
             &:hover{
                 transform: scale(1.02);
                 border-color: lighten($fade_black, 10%);
@@ -225,17 +403,26 @@ body{
 
            .card_information{
                 padding:1rem;
+                
                 .title{
                     color:#fff;
                     font-weight: 500;
                     font-size: 14px;
                     margin-bottom:1rem;
+                    transition:0.15s;
+                    &.light{
+                        color:$light_black !important;
+                    }
                    
                 }
 
                 .card_desc{
                     font-size:14px;
                     color:$article ;
+                    transition:0.15s;
+                    &.light{
+                        color:$light_text !important;
+                    }
                 }
            }
         }
@@ -288,11 +475,76 @@ body{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 2rem;
-    
+    &.light{
+        color:$fade_black;
+    }
 }
 
 .section{
     margin-top:6rem;
     
+}
+
+.footer{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3rem;
+    padding-top:4rem;
+    place-items: center normal;
+    @media screen and (max-width:700px) {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .footer_nav{
+        display: flex;
+        gap:1rem;
+        
+        .link{
+            color:$article;
+            font-size:14px;
+            transition: 0.15s;
+            &:hover{
+                color:$white;
+            }
+        }
+    }
+
+    .top_wrapper{
+        place-self: center;
+        .top{
+            width: max-content;
+            font-size:14px;
+            padding:1rem 2rem;
+            border:1px solid $fade_black;
+            border-radius:100px;
+            background-color: $dark_gray;
+            color:$white;
+            &:hover{
+                border-color: lighten($fade_black, 10%);
+            }
+            &.light{
+                background-color: $light_background;
+                color:#444;
+                border:1px solid #aaa;
+                &:hover{
+                    color: $light_black;
+                border-color: $light_black;
+                }
+            }
+        }
+    }
+
+    .footer_author{
+        place-self: center end;
+        @media screen and (max-width:700px) {
+            place-self: center center;
+        }
+        .author{
+            font-size:14px;
+            color:$article;
+            text-align: right;
+        }
+    }
 }
 
