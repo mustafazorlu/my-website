@@ -14,7 +14,7 @@ const Content = () => {
         <section className="content" id="content">
             <div className={`about_me ${theme}`}>
                 <h1 className="about_me_title">
-                    Ben <span className="name">Mustafa Zorlu.</span>
+                    Selam ben <span className="name">Mustafa Zorlu.</span>
                     <br></br>
                     Full-stack yazılımcı olmaya çalışıyorum. Herkese bol şans 😁
                 </h1>
