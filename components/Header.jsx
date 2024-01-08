@@ -22,13 +22,16 @@ const Header = () => {
                     Hakkımda
                 </Link>
                 <Link className="link" href="#portfolio">
-                    Portolyo
+                    Portfolyo
                 </Link>
                 <Link className="link" href="#hobbies">
                     Hobilerim
                 </Link>
             </nav>
-            <div className={`hamburger ${theme}`} onClick={() => setShow(!show)}>
+            <div
+                className={`hamburger ${theme}`}
+                onClick={() => setShow(!show)}
+            >
                 Menu <FaSortDown />
             </div>
             <div onClick={toggleTheme} className={`theme_button ${theme}`}>

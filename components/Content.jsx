@@ -41,19 +41,25 @@ const Content = () => {
                         ediniyorum.
                     </p>
                     <p className="article">
-                        Bunların dışında <b>TEKNOFEST</b>'de <b>HUMA</b>{" "}
-                        takımında <b>Sürü İHA</b> kategorisinde çalışmalar
-                        yürüttüm. Burdan gelişimimde bana yardımcı olan takım
+                        Bunların dışında <b>Unity</b> de oyun geliştirme ve{" "}
+                        <b>TEKNOFEST</b>'de <b>HUMA</b> takımında{" "}
+                        <b>Sürü İHA</b> kategorisinde çalışmalar
+                        yürüttüm.Yarışmayı 6. bitirerek, aynı zamanda{" "}
+                        <b>En İyi Takım Ruhu</b> ödülüne layık görüldük 🤗
+                        Burdan gelişimimde bana yardımcı olan takım
                         arkadaşlarıma teşekkür ediyorum.
                     </p>
                     <p className="article">
-                        Eğer sen de benim gibi çalışmayı seven ve hayallerini
-                        gerçekleştirmeye çalışan biriysen, ya da bir takım
-                        arkadaşına ihtiyacın varsa benimle iletişime
-                        geçebilirsin.
+                        Eğer sen de hayallerini gerçekleştirmeye çalışan
+                        biriysen, ya da bir takım arkadaşına ihtiyacın varsa
+                        benimle iletişime geçebilirsin.
                     </p>
-                    <p>Discord: <b>zeytinsiyahi</b></p>
-                    <p>Telefon: <b>05070086002</b></p>
+                    <p>
+                        Discord: <b>zeytinsiyahi</b>
+                    </p>
+                    <p>
+                        Telefon: <b>05070086002</b>
+                    </p>
                 </div>
             </div>
             <div className="photo_social">
