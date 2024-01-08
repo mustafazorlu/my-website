@@ -28,8 +28,8 @@ const Content = () => {
                             Tokat Gaziosmanpaşa Üniversitesi Bilgisayar
                             Mühendisliği
                         </b>{" "}
-                        bölümünde son sınıf öğrencisiyim. Okulumun - herhangi bir
-                        okul için de geçerli - bana diploma denilen kağıttan
+                        bölümünde son sınıf öğrencisiyim. Okulumun - herhangi
+                        bir okul için de geçerli - bana diploma denilen kağıttan
                         başka bir şey veremediğini farkettiğim anda internetteki
                         eğitimleri izleyerek <u>yazılımın</u> üstüne düşmeye
                         başladım.Hala da internetteki eğitimlerle kendimi
@@ -52,6 +52,8 @@ const Content = () => {
                         arkadaşına ihtiyacın varsa benimle iletişime
                         geçebilirsin.
                     </p>
+                    <p>Discord: <b>zeytinsiyahi</b></p>
+                    <p>Telefon: <b>05070086002</b></p>
                 </div>
             </div>
             <div className="photo_social">
@@ -93,15 +95,13 @@ const Content = () => {
                             </Link>
                         </figure>
                         <figure className="mail">
-                            <figure>
-                                <Link
-                                    className={`link ${theme}`}
-                                    href={"mailto:mzorlu3579@gmail.com"}
-                                >
-                                    <IoMail className="icon" />{" "}
-                                    <span>mzorlu3579@gmail.com</span>
-                                </Link>
-                            </figure>
+                            <Link
+                                className={`link ${theme}`}
+                                href={"mailto:mzorlu3579@gmail.com"}
+                            >
+                                <IoMail className="icon" />{" "}
+                                <span>mzorlu3579@gmail.com</span>
+                            </Link>
                         </figure>
                     </div>
                 </div>
