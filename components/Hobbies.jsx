@@ -20,9 +20,6 @@ const Hobbies = () => {
                         <img src="/kopek.jpg" alt="" />
                     </div>
                     <div className="grid">
-                        <img src="kedi.jpg" alt="" />
-                    </div>
-                    <div className="grid">
                         <img src="/civcivler.jpg" alt="" />
                     </div>
                     <div className="grid">
@@ -39,9 +36,6 @@ const Hobbies = () => {
                         <img src="pika.jpg" alt="" />
                     </div>
 
-                    <div className="grid">
-                        <img src="tavsan.jpg" alt="" />
-                    </div>
                     <div className="grid">
                         <img src="vazodacicek.jpg" alt="" />
                     </div>
