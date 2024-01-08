@@ -30,30 +30,27 @@ const Content = () => {
                             Mühendisliği
                         </b>{" "}
                         bölümünde son sınıf öğrencisiyim. 4 yıldır web
-                        teknolojileri alanında kendimi internet üzerindeki
-                        eğitimlerden geliştirmeye çalışıyorum. Aynı zamanda UI
-                        ve UX tasarımlarıyla da ilgileniyorum. Şuan da Jr.
-                        Front-End geliştirici olarak çalışmalarımı
-                        sürdürmekteyim.
+                        teknolojileri alanındaki yetkinliğimi çeşitli
+                        eğitimlerle geliştiriyorum. Aynı zamanda UI ve UX
+                        tasarımlarıyla da ilgileniyorum. Şuan da Jr. Front-End
+                        geliştirici olarak çalışmalarımı sürdürmekteyim.
                     </p>
                     <p className="article">
-                        Bi süredir Freelance sektöründe işler alarak kendimi
-                        daha da geliştirip ve yeni tecrübeler
-                        ediniyorum.
+                        Bir süredir Freelance işler alarak yeni tecrübeler
+                        edinip, kendimi geliştiriyorum.
                     </p>
                     <p className="article">
-                        Bunların dışında <b>Unity</b> de oyun geliştirme ve{" "}
-                        <b>TEKNOFEST</b>'de <b>HUMA</b> takımında{" "}
-                        <b>Sürü İHA</b> kategorisinde çalışmalar
-                        yürüttüm.Yarışmayı 6. bitirerek, aynı zamanda{" "}
+                        Bunların dışında <b>Unity</b>'de oyun geliştirme ve{" "}
+                        <b>TEKNOFEST</b> <b>HUMA</b> takımında <b>Sürü İHA</b>{" "}
+                        kategorisinde çalışmalar yürüttüm. Yarışmada 6. olarak{" "}
                         <b>En İyi Takım Ruhu</b> ödülüne layık görüldük. Burdan
                         gelişimimde bana yardımcı olan takım arkadaşlarıma
                         teşekkür ediyorum.
                     </p>
                     <p className="article">
                         Eğer sen de hayallerini gerçekleştirmeye çalışan
-                        biriysen ya da bir takım arkadaşına ihtiyacın varsa
-                        benimle iletişime geçebilirsin.
+                        biriysen ve bir takım arkadaşına ihtiyacın varsa benimle
+                        iletişime geçebilirsin.
                     </p>
                     <p>
                         Discord: <b>zeytinsiyahi</b>
