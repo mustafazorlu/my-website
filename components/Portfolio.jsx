@@ -14,6 +14,7 @@ const Portfolio = () => {
                 <h1 className={`portfolio_title section_title ${theme}`}>
                     Portfolyo
                 </h1>
+                
                 <a
                     href="https://github.com/mustafazorlu"
                     className={`seeAll ${theme}`}

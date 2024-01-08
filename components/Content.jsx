@@ -16,7 +16,7 @@ const Content = () => {
                 <h1 className="about_me_title">
                     Ben <span className="name">Mustafa Zorlu.</span>
                     <br></br>
-                    Full-stack yazılımcı olmaya çalışıyorum. İyi forumlar 😁
+                    Full-stack yazılımcı olmaya çalışıyorum. Herkese bol şans 😁
                 </h1>
                 <div className={`about_me_articles ${theme}`}>
                     <p className="article">

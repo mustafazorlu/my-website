@@ -334,6 +334,12 @@ body{
                 align-items: center;
                 justify-content: center;
                 gap:0.5rem;
+                cursor: default;
+                transition: 0.15s;
+                &:hover{
+                    border:1px solid lighten($fade_black, 10%);
+                    background-color:lighten( $dark_gray, 5%) ;
+                }
                 &.light{
                     background-color: $light_background;
                     color:#444;
@@ -547,4 +553,7 @@ body{
         }
     }
 }
+
+
+
 
