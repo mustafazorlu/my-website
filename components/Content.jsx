@@ -43,8 +43,8 @@ const Content = () => {
                         Bunların dışında <b>Unity</b>'de oyun geliştirdim ve{" "}
                         <b>TEKNOFEST</b> <b>HUMA</b> takımında <b>Sürü İHA</b>{" "}
                         kategorisinde çalışmalar yürüttüm. Yarışmada 6. olarak{" "}
-                        <b>En İyi Takım Ruhu</b> ödülüne layık görüldük. Burdan
-                        gelişimimde bana yardımcı olan takım arkadaşlarıma
+                        <b>En İyi Takım Ruhu</b> ödülüne layık görüldük.
+                        Gelişimimde bana yardımcı olan takım arkadaşlarıma
                         teşekkür ediyorum.
                     </p>
                     <p className="article">
