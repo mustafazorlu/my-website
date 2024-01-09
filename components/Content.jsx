@@ -17,7 +17,7 @@ const Content = () => {
                     Selamlar! Ben <br />{" "}
                     <span className="name">Mustafa Zorlu.</span>
                     <br />
-                    Full-Stack yazılımcı olma yolumda adım adım ilerliyorum.
+                    Full-Stack yazılımcı olma yolunda adım adım ilerliyorum.
                 </h1>
                 <div className={`about_me_articles ${theme}`}>
                     <p className="article">
