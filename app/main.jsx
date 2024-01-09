@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import ThemeContext from "@/context/ThemeContext";
 import { useContext } from "react";
@@ -7,8 +8,10 @@ import Footer from "@/components/Footer";
 import Portfolio from "@/components/Portfolio";
 import Hobbies from "@/components/Hobbies";
 import Technologies from "@/components/Technologies";
+
 const main = () => {
     const { theme } = useContext(ThemeContext);
+
     return (
         <main className={`main ${theme}`} id="main">
             <div className={`container ${theme}`}>
