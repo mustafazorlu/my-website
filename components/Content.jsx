@@ -17,30 +17,30 @@ const Content = () => {
                     Selamlar! Ben <br />{" "}
                     <span className="name">Mustafa Zorlu.</span>
                     <br />
-                    Full-stack yazılımcı olma hayalimde adım adım ilerliyorum.
+                    Full-Stack yazılımcı olma yolumda adım adım ilerliyorum.
                 </h1>
                 <div className={`about_me_articles ${theme}`}>
                     <p className="article">
-                        Portfolyo sayfama hoşgeldin seni burada görmek beni çok
-                        mutlu etti.
+                        Portfolyo sayfama hoş geldin. Seni burada görmek beni
+                        çok mutlu etti.
                     </p>
                     <p className="article">
                         <b>
                             Tokat Gaziosmanpaşa Üniversitesi Bilgisayar
                             Mühendisliği
                         </b>{" "}
-                        bölümünde son sınıf öğrencisiyim. 4 yıldır web
-                        teknolojileri alanındaki yetkinliğimi çeşitli
-                        eğitimlerle geliştiriyorum. Aynı zamanda UI ve UX
-                        tasarımlarıyla da ilgileniyorum. Şuan da Jr. Front-End
-                        geliştirici olarak çalışmalarımı sürdürmekteyim.
+                        son sınıf öğrencisiyim. 4 yıldır web teknolojileri
+                        alanındaki yetkinliğimi çeşitli eğitimlerle
+                        geliştiriyorum. Aynı zamanda UI ve UX tasarımlarıyla da
+                        ilgileniyorum. Şu anda Jr. Front-End geliştirici olarak
+                        çalışmalarımı sürdürmekteyim.
                     </p>
                     <p className="article">
                         Bir süredir Freelance işler alarak yeni tecrübeler
                         edinip, kendimi geliştiriyorum.
                     </p>
                     <p className="article">
-                        Bunların dışında <b>Unity</b>'de oyun geliştirme ve{" "}
+                        Bunların dışında <b>Unity</b>'de oyun geliştirdim ve{" "}
                         <b>TEKNOFEST</b> <b>HUMA</b> takımında <b>Sürü İHA</b>{" "}
                         kategorisinde çalışmalar yürüttüm. Yarışmada 6. olarak{" "}
                         <b>En İyi Takım Ruhu</b> ödülüne layık görüldük. Burdan
@@ -54,9 +54,6 @@ const Content = () => {
                     </p>
                     <p>
                         Discord: <b>zeytinsiyahi</b>
-                    </p>
-                    <p>
-                        Telefon: <b>05070086002</b>
                     </p>
                 </div>
             </div>
