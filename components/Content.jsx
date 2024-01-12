@@ -44,11 +44,11 @@ const Content = () => {
                     </p>
                     <p className="article">
                         Bir süredir Freelance işler alarak yeni tecrübeler
-                        ediniyor ve kendimi geliştiriyorum.Ayrıca <b>Unity</b>
+                        ediniyor ve kendimi geliştiriyorum. Ayrıca <b>Unity</b>
                         'de oyun geliştirdim.
                     </p>
                     <p className="article">
-                        Siz de hayallerinizi gerçekleştirmek için bir takım
+                        Sizin de hayallerinizi gerçekleştirmek için bir takım
                         arkadaşına ihtiyacınız varsa benimle iletişime
                         geçebilirsiniz.
                     </p>
