@@ -35,25 +35,22 @@ const Content = () => {
                         ilgileniyorum. Şu anda Jr. Front-End geliştirici olarak
                         çalışmalarımı sürdürmekteyim.
                     </p>
-                    <p className="article">
-                        Bir süredir Freelance işler alarak yeni tecrübeler
-                        ediniyor ve kendimi geliştiriyorum.
-                    </p>
+
                     <p className="article">
                         {" "}
                         <b>TEKNOFEST</b> <b>HUMA</b> takımında <b>Sürü İHA</b>{" "}
                         kategorisinde çalışmalar yürüttüm. Yarışmada 6. olarak{" "}
                         <b>En İyi Takım Ruhu</b> ödülüne layık görüldük.
-                        Gelişimimde bana yardımcı olan takım arkadaşlarıma
-                        teşekkür ediyorum.
                     </p>
                     <p className="article">
-                        Ayrıca <b>Unity</b>'de oyun geliştirdim.
+                        Bir süredir Freelance işler alarak yeni tecrübeler
+                        ediniyor ve kendimi geliştiriyorum.Ayrıca <b>Unity</b>
+                        'de oyun geliştirdim.
                     </p>
                     <p className="article">
-                        Sen de hayallerini gerçekleştirmek için bir takım
-                        arkadaşına ihtiyacın varsa benimle iletişime
-                        geçebilirsin.
+                        Siz de hayallerinizi gerçekleştirmek için bir takım
+                        arkadaşına ihtiyacınız varsa benimle iletişime
+                        geçebilirsiniz.
                     </p>
                     <p>
                         Discord: <b>zeytinsiyahi</b>
