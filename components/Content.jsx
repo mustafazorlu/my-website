@@ -21,7 +21,7 @@ const Content = () => {
                 </h1>
                 <div className={`about_me_articles ${theme}`}>
                     <p className="article">
-                        Portfolyo sayfama hoş geldin. Seni burada görmek beni
+                        Portfolyo sayfama hoş geldiniz. Sizi burada görmek beni
                         çok mutlu etti.
                     </p>
                     <p className="article">
@@ -29,18 +29,18 @@ const Content = () => {
                             Tokat Gaziosmanpaşa Üniversitesi Bilgisayar
                             Mühendisliği
                         </b>{" "}
-                        son sınıf öğrencisiyim. 4 yıldır web teknolojileri
-                        alanındaki yetkinliğimi çeşitli eğitimlerle
+                        bölümü son sınıf öğrencisiyim. 4 yıldır web
+                        teknolojileri alanında kendimi çeşitli eğitimlerle
                         geliştiriyorum. Aynı zamanda UI ve UX tasarımlarıyla da
                         ilgileniyorum. Şu anda Jr. Front-End geliştirici olarak
                         çalışmalarımı sürdürmekteyim.
                     </p>
                     <p className="article">
                         Bir süredir Freelance işler alarak yeni tecrübeler
-                        edinip, kendimi geliştiriyorum.
+                        ediniyor ve kendimi geliştiriyorum.
                     </p>
                     <p className="article">
-                        Bunların dışında <b>Unity</b>'de oyun geliştirdim ve{" "}
+                        {" "}
                         <b>TEKNOFEST</b> <b>HUMA</b> takımında <b>Sürü İHA</b>{" "}
                         kategorisinde çalışmalar yürüttüm. Yarışmada 6. olarak{" "}
                         <b>En İyi Takım Ruhu</b> ödülüne layık görüldük.
@@ -48,9 +48,12 @@ const Content = () => {
                         teşekkür ediyorum.
                     </p>
                     <p className="article">
-                        Eğer sen de hayallerini gerçekleştirmeye çalışan
-                        biriysen ve bir takım arkadaşına ihtiyacın varsa benimle
-                        iletişime geçebilirsin.
+                        Ayrıca <b>Unity</b>'de oyun geliştirdim.
+                    </p>
+                    <p className="article">
+                        Sen de hayallerini gerçekleştirmek için bir takım
+                        arkadaşına ihtiyacın varsa benimle iletişime
+                        geçebilirsin.
                     </p>
                     <p>
                         Discord: <b>zeytinsiyahi</b>
