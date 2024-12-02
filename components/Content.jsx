@@ -59,7 +59,7 @@ const Content = () => {
             </div>
             <div className="photo_social">
                 <div className="photo">
-                    <img src="/ben.jpg" alt="" />
+                    <img src="/ben.png" alt="" />
                 </div>
 
                 <div className="social">
