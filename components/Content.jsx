@@ -29,10 +29,10 @@ const Content = () => {
                             Tokat Gaziosmanpaşa Üniversitesi Bilgisayar
                             Mühendisliği
                         </b>{" "}
-                        bölümü son sınıf öğrencisiyim. 4 yıldır web
+                        mezunuyum. 4 yıldır web
                         teknolojileri alanında kendimi çeşitli eğitimlerle
                         geliştiriyorum. Aynı zamanda UI ve UX tasarımlarıyla da
-                        ilgileniyorum. Şu anda Jr. Front-End geliştirici olarak
+                        ilgileniyorum. Şu anda Full Stack Geliştirici olarak
                         çalışmalarımı sürdürmekteyim.
                     </p>
 
@@ -44,8 +44,7 @@ const Content = () => {
                     </p>
                     <p className="article">
                         Bir süredir Freelance işler alarak yeni tecrübeler
-                        ediniyor ve kendimi geliştiriyorum. Ayrıca <b>Unity</b>
-                        'de oyun geliştirdim.
+                        ediniyor ve kendimi geliştiriyorum.
                     </p>
                     <p className="article">
                         Sizin de hayallerinizi gerçekleştirmek için bir takım
