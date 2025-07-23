@@ -17,13 +17,13 @@ export default function Home() {
             {loading ? (
                 <div className="loading">
                     <div className="loader">
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
-                        <div class="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
+                        <div className="loader-square"></div>
                     </div>
                 </div>
             ) : (
