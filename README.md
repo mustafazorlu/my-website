@@ -3,7 +3,7 @@
 <b>Bu notları React bilen birisi olarak yazdığım için her kavramı detaylı açıklamayacağım.Anlayamadığınız yerler olursa Javascript ve React öğrenmenizi tavsiye ediyorum.</b>
 
 Öğrenmeye başladığım sırada npm versiyonumun ve node.js versiyonumum eski olduğunu ve bu yüzden "npm run dev" komutunun çalışmayacağına dair bir hata aldım.Eğer siz de bu hatayı alırsanız npm sürümünüzü güncellemek için "npm update -g" komutunu kullanın.Node.js sürümünüzü de güncellemek için nvm modülünü indirmeniz gerekmekte.
-<a href="https://github.com/coreybutler/nvm-windows/releases">https://github.com/coreybutler/nvm-windows/releases</a> şu linkten bilgisayarınıza uygun uzantıyı seçip indirin ve daha sonra Microsoft Powershell i açıp "nvm install latest" komutunu yazın.Son sürümü indirmiş olucaksınız fakat henüz son sürümü kullanmadınız.Bunun için de "nvm use latest" yazmanız gerek.Artık son npm ve node.js in son sürümlerini gönül rahatlığıyla kullanabilirsiniz.Düzeltme veya ekleme yapmak için benimle iletişime geçebilirsin.
+<a href="https://github.com/coreybutler/nvm-windows/releases">https://github.com/coreybutler/nvm-windows/releases</a> şu linkten bilgisayarınıza uygun uzantıyı seçip indirin ve daha sonra Microsoft Powershell i açıp "nvm install latest" komutunu yazın.Son sürümü indirmiş olucaksınız fakat henüz son sürümü kullanmadınız.Bunun için de "nvm use latest" yazmanız gerek.Artık son npm ve node.js in son sürümlerini gönül rahatlığıyla kullanabilirsiniz.Düzeltme veya ekleme yapmak için benimle iletişime geçebilirsin..
 
 ### Proje Oluşturmak
 
